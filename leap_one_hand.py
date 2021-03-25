@@ -17,7 +17,6 @@ class OneHandListener(Leap.Listener):
     f = open("result.txt", 'w')
     f.close()
     
-    f=open("result.txt",'a')
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
     bone_names = ['Metacarpal', 'Proximal', 'Intermediate', 'Distal']
 
@@ -27,6 +26,9 @@ class OneHandListener(Leap.Listener):
     def on_connect(self, controller):
         global one_hand_connected
         one_hand_connected = True
+        self.f = open("result.txt", 'w')
+        self.f.close()
+        self.f=open("result.txt",'a')
         print "Connected"
         
     # def on_disconnect(self, controller):

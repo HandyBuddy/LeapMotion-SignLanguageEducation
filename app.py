@@ -337,9 +337,6 @@ def actual_practice():
 def predict_two_hand():
     leap_two_hand.main()
     getTwoHandPred()
-    #timer = threading.Timer(0.1, getTwoHandPred)
-    #timer.start()
-    #timer.join()
     return class_name
     
 
@@ -347,9 +344,6 @@ def predict_two_hand():
 def predict_one_hand():
     leap_one_hand.main()
     getOneHandPred()
-    #timer = threading.Timer(0.1, getOneHandPred)
-    #timer.start()
-    #timer.join()
     return class_name
 
 if __name__ == '__main__':

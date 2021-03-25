@@ -12,11 +12,10 @@ two_hand_connected = False
 class TwoHandListener(Leap.Listener):
 
     lPrevPalmX = rPrevPalmX = lPrevPalmY = rPrevPalmY = lPrevPalmZ = rPrevPalmZ = 0.0
-    
+
     f = open("result.txt", 'w')
     f.close()
     
-    f=open("result.txt",'a')
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
     bone_names = ['Metacarpal', 'Proximal', 'Intermediate', 'Distal']
 
@@ -26,6 +25,9 @@ class TwoHandListener(Leap.Listener):
     def on_connect(self, controller):
         global two_hand_connected
         two_hand_connected = True
+        self.f = open("result.txt", 'w')
+        self.f.close()
+        self.f=open("result.txt",'a')
         print "Connected"
 
     # def on_disconnect(self, controller):
@@ -38,7 +40,7 @@ class TwoHandListener(Leap.Listener):
         
 
     def on_frame(self, controller):
-
+    
         # Get the most recent frame and report some basic information
         frame = controller.frame()
 
@@ -272,6 +274,7 @@ def main():
         	print "reconnecting"
         	controller.remove_listener(listener)
         	controller.add_listener(listener)
+        	time.sleep(0.1)
         elif two_hand_connected:
         	break
 
