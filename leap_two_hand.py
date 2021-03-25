@@ -5,6 +5,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(src_dir, arch_dir)))
 
 import Leap
 from threading import Timer
+import time
 
 two_hand_data = ""
 two_hand_connected = False
