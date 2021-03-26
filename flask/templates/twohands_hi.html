@@ -159,22 +159,32 @@
     <h1 style="position: relative; top:-1350px; left:100px;">수화 뜻 : 안녕하세요.</h1>
     
     <div class="button">
-      <label for="button" style="position: relative; top:-1360; right:-80px;">입력</label>
+      <label for="button" style="position: relative; top:-1360; right:-30px;">입력</label>
         <input type="button" id="button">
-        <canvas id="canvas" width="550" height="100" style="position : relative; top:-1300px; right:-120px;"></canvas>
+        <canvas id="canvas" width="450" height="100" style="position : relative; top:-1300px; right:-50px;" float:left></canvas>
         <script>
           var rectangle = document.getElementById("canvas")
           var context = rectangle.getContext("2d")
           context.fillStyle = "#cfcccc"
-          context.rect(0, 0, 550, 65)
+          context.rect(0, 0, 450, 65)
           context.fill()
         </script>
 
     </div>
+    <div id = "answer" style="position: relative; top:-1420px; left:50px">
+    	<h2>입력 버튼을 눌러주세요.</h2>
+    </div>
+    
+    <div id="rightImage" style="position: relative; top:-1510px; left:400px; visibility:hidden" float:left>
+  	<img src="https://media.giphy.com/media/QuDCd1noC0aAJOUv73/giphy.gif" width="100px" height="100px">
+    </div>
+    
+    <div id="wrongImage" style="position: relative; top:-1610px; left:400px; visibility:hidden" float:left>
+  	<img src="https://media.giphy.com/media/3og0IvGtnDyPHCRaYU/giphy.gif" width="100px" height="100px">
+    </div>
   </center>
-  <div id = "answer" style="position: relative; top:-1420px; left:825px">
-      <h2>입력 버튼을 눌러주세요.</h2>
-  </div>
+
+  <div id="isRight" name="안녕하세요"></div>
 
   
   </body>

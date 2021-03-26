@@ -20,13 +20,19 @@ $(window).on('load',function()
         document.getElementById("answer").style.fontSize = "40px";
         document.getElementById("answer").style.position = "relative";
         document.getElementById("answer").style.top = "-1430px";
+        var name = document.getElementById("isRight").getAttribute('name');
 
         
         checkPrediction(function(data){
         	document.getElementById("answer").innerHTML = data;
+        	if (data == name) {
+        		document.getElementById("rightImage").style.visibility = "visible";
+        	}
+        	else 
+        		document.getElementById("wrongImage").style.visibility = "visible";
 
         });
-
+	
 
     });
 
