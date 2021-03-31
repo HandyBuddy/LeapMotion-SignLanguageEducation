@@ -1,0 +1,128 @@
+<style>
+  li {border-right: solid 1px black;}
+  li:last-child {border-right: none;}
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+  <title>HANDY BUDDY</title>
+<script></script>
+
+<style>
+.type1 {height: 300px; width: 800px; border:5px solid;}
+.type2 {top: 25%; position: relative; text-align: center;}
+
+.parent {
+	display: flex;
+}
+
+.button label {
+    display: inline-block;
+    padding: .3em .8em;
+    color: #fff;
+    font-size: xx-large;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #5578c3;
+    cursor: pointer;
+    border: 1px solid #5578c3;
+    border-radius: .25em;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    top: 200px;
+    position: relative;
+    flex: 10;
+    
+}
+
+.button label:hover {
+  background-color: #5578c3;
+}
+
+.button label:active {
+  background-color: #5578c3;
+}
+
+.button input[type="button"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <a class="navbar-brand" href="{{ url_for('main') }}">Main</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <button class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="{{ url_for('onehand_words') }}">한 손 수화 배우기</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="{{ url_for('twohand_words') }}">두 손 수화 배우기</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="{{ url_for('randomgame')}}">수화 단어 게임</a>
+                </li>
+            </button>
+        </div>
+    </nav>
+
+
+<!-- jQuery JS -->
+<script src="{{ url_for('static', filename='jquery-3.4.1.min.js') }}"></script>
+<!-- Bootstrap JS -->
+<script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+
+
+<center>
+	<div class='type1' style="position:relative; top:200px;"><div class='type2' id=recognization>
+		<h1></h1>
+	</div></div>
+	<div id=process style="position:relative; top:250px;">
+		<h2>(인식중입니다.)</h2>
+	</div>
+	<div id=correct style="position:relative; top:250px;">
+		<h2></h2>
+	</div>
+	<div id=count style="position:relative; top:250px;">
+		<h2></h2>
+	</div>
+
+	<div class="parent">
+		<div class="button" style="margin-right:300px; margin-left:450px; margin-top:150px;" id="button1">
+			<label for="button" >수화 다시 인식하기</label>
+			<input type="button">
+		</div>
+		<div class="button" style="margin-top:150px;" id="button2">
+			<label for="button">다른 수화 도전하기</label>
+			<input type="button">
+		</div>
+	</div>
+</center>
+
+
+
+
+</body>
+<script src="/static/randomgame2.js"></script>
+</html>
