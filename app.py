@@ -97,241 +97,166 @@ def getOneHandPred():
 def main():
     return render_template("main.html")
 
-@app.route('/learningwords')
-def words():
-    return render_template("words.html")
+@app.route('/learning_onehand')
+def onehand_words():
+    return render_template("onehand_words.html")
 
-@app.route('/learningwords/onehand_first')
+@app.route('/learning_twohand')
+def twohand_words():
+    return render_template("twohand_words.html")
+
+@app.route('/learning_onehand/onehand_first')
 def onehand_first():
     return render_template("onehand_first.html")
 
-@app.route('/learningwords/onehand_hobby')
+@app.route('/learning_onehand/onehand_hobby')
 def onehand_hobby():
     return render_template("onehand_hobby.html")
 
-@app.route('/learningwords/onehand_what')
+@app.route('/learning_onehand/onehand_what')
 def onehand_what():
     return render_template("onehand_what.html")
 
-@app.route('/learningwords/onehand_like')
+@app.route('/learning_onehand/onehand_like')
 def onehand_like():
     return render_template("onehand_like.html")
 
-@app.route('/learningwords/onehand_dog')
+@app.route('/learning_onehand/onehand_dog')
 def onehand_dog():
     return render_template("onehand_dog.html")
 
-@app.route('/learningwords/onehand_thesedays')
+@app.route('/learning_onehand/onehand_thesedays')
 def onehand_thesedays():
     return render_template("onehand_thesedays.html")
 
-@app.route('/learningwords/onehand_eat(meal)')
+@app.route('/learning_onehand/onehand_eat(meal)')
 def onehand_eat():
     return render_template("onehand_eat(meal).html")
 
-@app.route('/learningwords/onehand_go')
+@app.route('/learning_onehand/onehand_go')
 def onehand_go():
     return render_template("onehand_go.html")
 
-@app.route('/learningwords/onehand_sick')
+@app.route('/learning_onehand/onehand_sick')
 def onehand_sick():
     return render_template("onehand_sick.html")
 
-@app.route('/learningwords/onehand_cough')
+@app.route('/learning_onehand/onehand_cough')
 def onehand_cough():
     return render_template("onehand_cough.html")
 
-@app.route('/learningwords/onehand_ill')
+@app.route('/learning_onehand/onehand_ill')
 def onehand_ill():
     return render_template("onehand_ill.html")
 
-@app.route('/learningwords/onehand_be')
+@app.route('/learning_onehand/onehand_be')
 def onehand_be():
     return render_template("onehand_be.html")
 
-@app.route('/learningwords/onehand_enough')
+@app.route('/learning_onehand/onehand_enough')
 def onehand_enough():
     return render_template("onehand_enough.html")
 
-@app.route('/learningwords/onehand_and')
+@app.route('/learning_onehand/onehand_and')
 def onehand_and():
     return render_template("onehand_and.html")
 
-@app.route('/learningwords/onehand_come')
+@app.route('/learning_onehand/onehand_come')
 def onehand_come():
     return render_template("onehand_come.html")
 
-@app.route('/learningwords/onehand_yes')
+@app.route('/learning_onehand/onehand_yes')
 def onehand_yes():
     return render_template("onehand_yes.html")
 
-@app.route('/learningwords/onehand_twodaysafter')
+@app.route('/learning_onehand/onehand_twodaysafter')
 def onehand_twodaysafter():
     return render_template("onehand_twodaysafter.html")
 
-@app.route('/learningwords/twohands_hi')
+@app.route('/learning_twohand/twohands_hi')
 def twohands_hi():
     return render_template("twohands_hi.html")
 
-@app.route('/learningwords/twohands_meet')
+@app.route('/learning_twohand/twohands_meet')
 def twohands_meet():
     return render_template("twohands_meet.html")
 
-@app.route('/learningwords/twohands_nicetomeet')
+@app.route('/learning_twohand/twohands_nicetomeet')
 def twohands_nicetomeet():
     return render_template("twohands_nicetomeet.html")
 
-@app.route('/learningwords/twohands_readingbook')
+@app.route('/learning_twohand/twohands_readingbook')
 def twohands_readingbook():
     return render_template("twohands_readingbook.html")
 
-@app.route('/learningwords/twohands_animal')
+@app.route('/learning_twohand/twohands_animal')
 def twohands_animal():
     return render_template("twohands_animal.html")
 
-@app.route('/learningwords/twohands_longtimenosee')
+@app.route('/learning_twohand/twohands_longtimenosee')
 def twohands_longtimenosee():
     return render_template("twohands_longtimenosee.html")
 
-@app.route('/learningwords/twohands_busy')
+@app.route('/learning_twohand/twohands_busy')
 def twohands_busy():
     return render_template("twohands_busy.html")
 
-@app.route('/learningwords/twohands_end')
+@app.route('/learning_twohand/twohands_end')
 def twohands_end():
     return render_template("twohands_end.html")
 
-@app.route('/learningwords/twohands_yet')
+@app.route('/learning_twohand/twohands_yet')
 def twohands_yet():
     return render_template("twohands_yet.html")
 
-@app.route('/learningwords/twohands_together')
+@app.route('/learning_twohand/twohands_together')
 def twohands_together():
     return render_template("twohands_together.html")
 
-@app.route('/learningwords/twohands_noodle')
+@app.route('/learning_twohand/twohands_noodle')
 def twohands_noodle():
     return render_template("twohands_noodle.html")
 
-@app.route('/learningwords/twohands_cold')
+@app.route('/learning_twohand/twohands_cold')
 def twohands_cold():
     return render_template("twohands_cold.html")
 
-@app.route('/learningwords/twohands_different')
+@app.route('/learning_twohand/twohands_different')
 def twohands_different():
     return render_template("twohands_different.html")
 
-@app.route('/learningwords/twohands_state')
+@app.route('/learning_twohand/twohands_state')
 def twohands_state():
     return render_template("twohands_state.html")
 
-@app.route('/learningwords/twohands_no')
+@app.route('/learning_twohand/twohands_no')
 def twohands_no():
     return render_template("twohands_no.html")
 
-@app.route('/learningwords/twohands_medicine')
+@app.route('/learning_twohand/twohands_medicine')
 def twohands_medicine():
     return render_template("twohands_medicine.html")
 
-@app.route('/learningwords/twohands_rest')
+@app.route('/learning_twohand/twohands_rest')
 def twohands_rest():
     return render_template("twohands_rest.html")
 
-@app.route('/learningwords/twohands_favor')
+@app.route('/learning_twohand/twohands_favor')
 def twohands_favor():
     return render_template("twohands_favor.html")
+    
+@app.route('/randomgame')
+def randomgame():
+    return render_template("randomgame.html")
+    
+@app.route('/gamestart1')
+def gamestart1():
+    return render_template("gamestart1.html")
 
-@app.route('/learningsentences')
-def learningsentences():
-    return render_template("sentences.html")
+@app.route('/gamestart2')
+def gamestart2():
+    return render_template("gamestart2.html")
 
-@app.route('/learningsentences/introduction1')
-def introduction1():
-    return render_template("sentence_introduction1.html")
-
-@app.route('/learningsentences/introduction2')
-def introduction2():
-    return render_template("sentence_introduction2.html")
-
-@app.route('/learningsentences/introduction3')
-def introduction3():
-    return render_template("sentence_introduction3.html")
-
-@app.route('/learningsentences/introduction4')
-def introduction4():
-    return render_template("sentence_introduction4.html")
-
-@app.route('/learningsentences/introduction5')
-def introduction5():
-    return render_template("sentence_introduction5.html")
-
-@app.route('/learningsentences/introduction6')
-def introduction6():
-    return render_template("sentence_introduction6.html")
-
-@app.route('/learningsentences/asking1')
-def asking1():
-    return render_template("sentence_asking1.html")
-
-@app.route('/learningsentences/asking2')
-def asking2():
-    return render_template("sentence_asking2.html")
-
-@app.route('/learningsentences/asking3')
-def asking3():
-    return render_template("sentence_asking3.html")
-
-@app.route('/learningsentences/asking4')
-def asking4():
-    return render_template("sentence_asking4.html")
-
-@app.route('/learningsentences/asking5')
-def asking5():
-    return render_template("sentence_asking5.html")
-
-@app.route('/learningsentences/asking6')
-def asking6():
-    return render_template("sentence_asking6.html")
-
-@app.route('/learningsentences/asking7')
-def asking7():
-    return render_template("sentence_asking7.html")
-
-@app.route('/learningsentences/asking8')
-def asking8():
-    return render_template("sentence_asking8.html")
-
-@app.route('/learningsentences/hospital1')
-def hospital1():
-    return render_template("sentence_hospital1.html")
-
-@app.route('/learningsentences/hospital2')
-def hospital2():
-    return render_template("sentence_hospital2.html")
-
-@app.route('/learningsentences/hospital3')
-def hospital3():
-    return render_template("sentence_hospital3.html")
-
-@app.route('/learningsentences/hospital4')
-def hospital4():
-    return render_template("sentence_hospital4.html")
-
-@app.route('/learningsentences/hospital5')
-def hospital5():
-    return render_template("sentence_hospital5.html")
-
-@app.route('/learningsentences/hospital6')
-def hospital6():
-    return render_template("sentence_hospital6.html")
-
-@app.route('/learningsentences/hospital7')
-def hospital7():
-    return render_template("sentence_hospital7.html")
-
-@app.route('/actual_practice')
-def actual_practice():
-    return render_template("actual_practice.html")
 
 @app.route('/predict_two_hand', methods=['GET'])
 def predict_two_hand():

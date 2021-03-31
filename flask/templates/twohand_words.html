@@ -54,14 +54,15 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <button class="navbar-nav">
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('words') }}">수화 단어 배우기</a>
+                    <a class="nav-link" href="{{ url_for('onehand_words') }}">한 손 수화 배우기</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('learningsentences')}}">수화 문장 배우기</a>
+                    <a class="nav-link" href="{{ url_for('twohand_words') }}">두 손 수화 배우기</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">실전 수화</a>
-              </li>
+                    <a class="nav-link" href="{{ url_for('randomgame')}}">수화 단어 게임</a>
+                </li>
+
             </button>
         </div>
     </nav>
@@ -73,25 +74,7 @@
 <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
 
 <ul>
-  <li style="font-size:20px;"><a href="{{ url_for('words') }}">한 손</a></li>
-  <li><a href="{{ url_for('onehand_first') }}">▶ 처음</a></li>
-  <li><a href="{{ url_for('onehand_hobby') }}">▶ 취미</a></li>
-  <li><a href="{{ url_for('onehand_what') }}">▶ 무엇(무슨,어디,어떤)</a></li>
-  <li><a href="{{ url_for('onehand_like') }}">▶ 좋다</a></li>
-  <li><a href="{{ url_for('onehand_dog') }}">▶ 강아지</a></li>
-  <li><a href="{{ url_for('onehand_thesedays') }}">▶ 요즘</a></li>
-  <li><a href="{{ url_for('onehand_eat') }}">▶ 먹다(밥)</a></li>
-  <li><a href="{{ url_for('onehand_go') }}">▶ 가다</a></li>
-  <li><a href="{{ url_for('onehand_sick') }}">▶ 아프다</a></li>
-  <li><a href="{{ url_for('onehand_cough') }}">▶ 기침하다</a></li>
-  <li><a href="{{ url_for('onehand_ill') }}">▶ 병</a></li>
-  <li><a href="{{ url_for('onehand_be') }}">▶ 있다</a></li>
-  <li><a href="{{ url_for('onehand_enough') }}">▶ 충분하다</a></li>
-  <li><a href="{{ url_for('onehand_and') }}">▶ 또</a></li>
-  <li><a href="{{ url_for('onehand_come') }}">▶ 오다</a></li>
-  <li><a href="{{ url_for('onehand_yes') }}">▶ 예</a></li>
-  <li><a href="{{ url_for('onehand_twodaysafter') }}">▶ 이틀 후(모레)</a></li>
-  <li style="font-size:20px;"><a href="{{ url_for('words') }}">두 손</a></li>
+  <li style="font-size:20px;"><a href="{{ url_for('twohand_words') }}">두 손</a></li>
   <li><a href="{{ url_for('twohands_hi') }}">▶ 안녕하세요</a></li>
   <li><a href="{{ url_for('twohands_meet') }}">▶ 만나다</a></li>
   <li><a href="{{ url_for('twohands_nicetomeet') }}">▶ 반갑다</a></li>
