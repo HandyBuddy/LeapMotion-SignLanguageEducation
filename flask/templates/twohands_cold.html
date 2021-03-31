@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+<link rel="stylesheet" href="../static/bootstrap.min.css">
   <title>HANDY BUDDY</title>
   <script></script>
   <style>
@@ -84,7 +84,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <a class="navbar-brand" href="{{ url_for('main') }}">Main</a>
+        <a class="navbar-brand" href="main.html">Main</a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -92,47 +92,47 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <button class="navbar-nav">
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('onehand_words') }}">한 손 수화 배우기</a>
+                    <a class="nav-link" href="onehand_words.html">한 손 수화 배우기</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('twohand_words') }}">두 손 수화 배우기</a>
+                    <a class="nav-link" href="twohand_words.html">두 손 수화 배우기</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('randomgame')}}">수화 단어 게임</a>
+                    <a class="nav-link" href="randomgame.html">수화 단어 게임</a>
                 </li>
             </button>
         </div>
     </nav>
 
   <!-- jQuery JS -->
-  <script src="{{ url_for('static', filename='jquery-3.4.1.min.js') }}"></script>
-  <!-- Bootstrap JS -->
-  <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+ <script src="../static/jquery-3.0.0.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="../static/bootstrap.min.js"></script>
   
 
 
 
 
   <ul>
-    <li style="font-size:20px;"><a href="{{ url_for('twohand_words') }}">두 손</a></li>
-    <li><a href="{{ url_for('twohands_hi') }}">▶ 안녕하세요</a></li>
-    <li><a href="{{ url_for('twohands_meet') }}">▶ 만나다</a></li>
-    <li><a href="{{ url_for('twohands_nicetomeet') }}">▶ 반갑다</a></li>
-    <li><a href="{{ url_for('twohands_readingbook') }}">▶ 책읽기</a></li>
-    <li><a href="{{ url_for('twohands_animal') }}">▶ 동물</a></li>
-    <li><a href="{{ url_for('twohands_longtimenosee') }}">▶ 오랜만</a></li>
-    <li><a href="{{ url_for('twohands_busy') }}">▶ 바쁘다</a></li>
-    <li><a href="{{ url_for('twohands_end') }}">▶ 끝(완료형)</a></li>
-    <li><a href="{{ url_for('twohands_yet') }}">▶ 아직</a></li>
-    <li><a href="{{ url_for('twohands_together') }}">▶ 함께</a></li>
-    <li><a href="{{ url_for('twohands_noodle') }}">▶ 국수</a></li>
-    <li><a href="{{ url_for('twohands_cold') }}">▶ 춥다</a></li>
-    <li><a href="{{ url_for('twohands_different') }}">▶ 다르다</a></li>
-    <li><a href="{{ url_for('twohands_state') }}">▶ 상태</a></li>
-    <li><a href="{{ url_for('twohands_no') }}">▶ 아니다</a></li>
-    <li><a href="{{ url_for('twohands_medicine') }}">▶ 약</a></li>
-    <li><a href="{{ url_for('twohands_rest') }}">▶ 쉬다(휴식)</a></li>
-    <li><a href="{{ url_for('twohands_favor') }}">▶ 부탁하다</a></li>
+    <li style="font-size:20px;"><a href="twohand_words.html">두 손</a></li>
+    <li><a href="twohands_hi.html">▶ 안녕하세요</a></li>
+    <li><a href="twohands_meet.html">▶ 만나다</a></li>
+    <li><a href="twohands_nicetomeet.html">▶ 반갑다</a></li>
+    <li><a href="twohands_readingbook.html">▶ 책읽기</a></li>
+    <li><a href="twohands_animal.html">▶ 동물</a></li>
+    <li><a href="twohands_longtimenosee.html">▶ 오랜만</a></li>
+    <li><a href="twohands_busy.html">▶ 바쁘다</a></li>
+    <li><a href="twohands_end.html">▶ 끝(완료형)</a></li>
+    <li><a href="twohands_yet.html">▶ 아직</a></li>
+    <li><a href="twohands_together.html">▶ 함께</a></li>
+    <li><a href="twohands_noodle.html">▶ 국수</a></li>
+    <li><a href="twohands_cold.html">▶ 춥다</a></li>
+    <li><a href="twohands_different.html">▶ 다르다</a></li>
+    <li><a href="twohands_state.html">▶ 상태</a></li>
+    <li><a href="twohands_no.html">▶ 아니다</a></li>
+    <li><a href="twohands_medicine.html">▶ 약</a></li>
+    <li><a href="twohands_rest.html">▶ 쉬다(휴식)</a></li>
+    <li><a href="twohands_favor.html">▶ 부탁하다</a></li>
   </ul>
   
   <center>
@@ -173,5 +173,5 @@
 
   
   </body>
-  <script src="/static/function2.js"></script>
+  <script src="../static/function2.js"></script>
   </html>

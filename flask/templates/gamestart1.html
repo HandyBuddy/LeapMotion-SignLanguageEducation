@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+<link rel="stylesheet" href="../static/bootstrap.min.css">
   <title>HANDY BUDDY</title>
 <script></script>
 
@@ -67,7 +67,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <a class="navbar-brand" href="{{ url_for('main') }}">Main</a>
+        <a class="navbar-brand" href="main.html">Main</a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -75,13 +75,13 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <button class="navbar-nav">
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('onehand_words') }}">한 손 수화 배우기</a>
+                    <a class="nav-link" href="onehand_words.html">한 손 수화 배우기</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('twohand_words') }}">두 손 수화 배우기</a>
+                    <a class="nav-link" href="twohand_words.html">두 손 수화 배우기</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('randomgame')}}">수화 단어 게임</a>
+                    <a class="nav-link" href="randomgame.html">수화 단어 게임</a>
                 </li>
             </button>
         </div>
@@ -89,9 +89,9 @@
 
 
 <!-- jQuery JS -->
-<script src="{{ url_for('static', filename='jquery-3.4.1.min.js') }}"></script>
+<script src="../static/jquery-3.0.0.min.js"></script>
 <!-- Bootstrap JS -->
-<script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+<script src="../static/bootstrap.min.js"></script>
 
 
 <center>
@@ -124,5 +124,5 @@
 
 
 </body>
-<script src="/static/randomgame.js"></script>
+<script src="../static/randomgame.js"></script>
 </html>

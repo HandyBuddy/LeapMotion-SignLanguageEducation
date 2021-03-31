@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+<link rel="stylesheet" href="../static/bootstrap.min.css">
   <title>HANDY BUDDY</title>
   <script></script>
   <style>
@@ -84,7 +84,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <a class="navbar-brand" href="{{ url_for('main') }}">Main</a>
+        <a class="navbar-brand" href="main.html">Main</a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -92,46 +92,47 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <button class="navbar-nav">
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('onehand_words') }}">한 손 수화 배우기</a>
+                    <a class="nav-link" href="onehand_words.html">한 손 수화 배우기</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('twohand_words') }}">두 손 수화 배우기</a>
+                    <a class="nav-link" href="twohand_words.html">두 손 수화 배우기</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{ url_for('randomgame')}}">수화 단어 게임</a>
+                    <a class="nav-link" href="randomgame.html">수화 단어 게임</a>
                 </li>
             </button>
         </div>
     </nav>
 
   <!-- jQuery JS -->
-  <script src="{{ url_for('static', filename='jquery-3.4.1.min.js') }}"></script>
-  <!-- Bootstrap JS -->
-  <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+<script src="../static/jquery-3.0.0.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="../static/bootstrap.min.js"></script>
+
   
 
 
 
 
   <ul>
-    <li style="font-size:20px;"><a href="{{ url_for('onehand_words') }}">한 손</a></li>
-    <li><a href="{{ url_for('onehand_first') }}">▶ 처음</a></li>
-    <li><a href="{{ url_for('onehand_hobby') }}">▶ 취미</a></li>
-    <li><a href="{{ url_for('onehand_what') }}">▶ 무엇(무슨,어디,어떤)</a></li>
-    <li><a href="{{ url_for('onehand_like') }}">▶ 좋다</a></li>
-    <li><a href="{{ url_for('onehand_dog') }}">▶ 강아지</a></li>
-    <li><a href="{{ url_for('onehand_thesedays') }}">▶ 요즘</a></li>
-    <li><a href="{{ url_for('onehand_eat') }}">▶ 먹다(밥)</a></li>
-    <li><a href="{{ url_for('onehand_go') }}">▶ 가다</a></li>
-    <li><a href="{{ url_for('onehand_sick') }}">▶ 아프다</a></li>
-    <li><a href="{{ url_for('onehand_cough') }}">▶ 기침하다</a></li>
-    <li><a href="{{ url_for('onehand_ill') }}">▶ 병</a></li>
-    <li><a href="{{ url_for('onehand_be') }}">▶ 있다</a></li>
-    <li><a href="{{ url_for('onehand_enough') }}">▶ 충분하다</a></li>
-    <li><a href="{{ url_for('onehand_and') }}">▶ 또</a></li>
-    <li><a href="{{ url_for('onehand_come') }}">▶ 오다</a></li>
-    <li><a href="{{ url_for('onehand_yes') }}">▶ 예</a></li>
-    <li><a href="{{ url_for('onehand_twodaysafter') }}">▶ 이틀 후(모레)</a></li>
+    <li style="font-size:20px;"><a href="onehand_words.html">한 손</a></li>
+  <li><a href="onehand_first.html">▶ 처음</a></li>
+  <li><a href="onehand_hobby.html">▶ 취미</a></li>
+  <li><a href="onehand_what.html">▶ 무엇(무슨,어디,어떤)</a></li>
+  <li><a href="onehand_like.html">▶ 좋다</a></li>
+  <li><a href="onehand_dog.html">▶ 강아지</a></li>
+  <li><a href="onehand_thesedays.html">▶ 요즘</a></li>
+  <li><a href="onehand_eat.html">▶ 먹다(밥)</a></li>
+  <li><a href="onehand_go.html">▶ 가다</a></li>
+  <li><a href="onehand_sick.html">▶ 아프다</a></li>
+  <li><a href="onehand_cough.html">▶ 기침하다</a></li>
+  <li><a href="onehand_ill.html">▶ 병</a></li>
+  <li><a href="onehand_be.html">▶ 있다</a></li>
+  <li><a href="onehand_enough.html">▶ 충분하다</a></li>
+  <li><a href="onehand_and.html">▶ 또</a></li>
+  <li><a href="onehand_come.html">▶ 오다</a></li>
+  <li><a href="onehand_yes.html">▶ 예</a></li>
+  <li><a href="onehand_twodaysafter.html">▶ 이틀 후(모레)</a></li>
   </ul>
   
   <center>
@@ -170,5 +171,5 @@
 
   
   </body>
-  <script src="/static/function.js"></script>
+  <script src="../static/function.js"></script>
   </html>
