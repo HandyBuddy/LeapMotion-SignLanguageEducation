@@ -1,148 +1,206 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>HANDY BUDDY</title>
-<script></script>
-<style>
-
-  .button label {
-    display: inline-block;
-    padding: 1.0em 2.5em;
-    color: #fff;
-    font-size: xx-large;
-    line-height: normal;
-    vertical-align: middle;
-    background-color: #5578c3;
-    cursor: pointer;
-    border: 1px solid #5578c3;
-    border-radius: .25em;
-    -webkit-transition: background-color 0.2s;
-    transition: background-color 0.2s;
-    top: 200px;
-    position: relative;
-    
-}
-
-.button label:hover {
-  background-color: #5578c3;
-}
-
-.button label:active {
-  background-color: #5578c3;
-}
-
-.button input[type="button"] {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
-
-.button2 label {
-    display: inline-block;
-    padding: 1.0em 2.5em;
-    color: #fff;
-    font-size: xx-large;
-    line-height: normal;
-    vertical-align: middle;
-    background-color: #5578c3;
-    cursor: pointer;
-    border: 1px solid #5578c3;
-    border-radius: .25em;
-    -webkit-transition: background-color 0.2s;
-    transition: background-color 0.2s;
-    top: 250px;
-    position: relative;
-}
-
-.button2 label:hover {
-  background-color: #5578c3;
-}
-
-.button2 label:active {
-  background-color: #5578c3;
-}
-
-.button2 input[type="button"] {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
-
-.button3 label {
-    display: inline-block;
-    padding: 1.0em 4.1em;
-    color: #fff;
-    font-size: xx-large;
-    line-height: normal;
-    vertical-align: middle;
-    background-color: #5578c3;
-    cursor: pointer;
-    border: 1px solid #5578c3;
-    border-radius: .25em;
-    -webkit-transition: background-color 0.2s;
-    transition: background-color 0.2s;
-    top: 300px;
-    position: relative;
-}
-
-.button3 label:hover {
-  background-color: #5578c3;
-}
-
-.button3 label:active {
-  background-color: #5578c3;
-}
-
-.button3 input[type="button"] {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
-
-</style>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>HANDYBUDDY</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="../static/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="../static/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="../static/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="../static/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="../static/owl.carousel.min.css">
+<link rel="stylesheet" href="../static/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
 </head>
 <body>
-  <center>
-    <div class="HEAD">
-        <h1 style="font-size:50px; position:relative; top:150px;">HANDYBUDDY</h1>
-    </div>
-    
+	<!--header section start -->
+	<div class="header_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="logo"><a href="main.html"><img src="images/logo.png"></a></div>
+				</div>
+				<div class="col-sm-6">
+					<div class="menu-area">
+                    <nav class="navbar navbar-expand-lg ">
+                        <!-- <a class="navbar-brand" href="#">Menu</a> -->
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                               <li class="nav-item active">
+                                <a class="nav-link" href="main.html">Home<span class="sr-only">(current)</span></a> </li>
+                               <li class="nav-item">
+                                <a class="nav-link" href="#guide" class="scroll">Guide</a></li>
+                               <li class="#" href="#">
+      	                        <a class="nav-link" href="#start" class="scroll">Start</a></li>
+                               <li class="nav-item" href="#">
+      	                        <a class="nav-link" href="#developedby" class="scroll"">Developed By</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+          </div>
+				</div>
+				<div class="col-sm-4">
+            <ul class="top_button_section">
+               <li><a class="login-bt active" href="#">로그인</a></li>
+               <li><a class="login-bt" href="#">가입하기</a></li>
+               <li class="search"><a href="#"><img src="images/search-icon.png" alt="#" /></a></li>
+            </ul>
+					</div>
+			</div>
 
-    <div class="button">
-      <label for="button" onclick="location.href='/learningwords'">수화 단어 배우기</label>
-      <input type="button" id="button">
+    <div class="row">
+      <div class="banner_section layout_padding">
+      <section>
+         <div id="main_slider" class="section carousel slide banner-main" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                    <div class="container">
+                     <div class="row marginii">
+                        <div class="col-md-5 col-sm-12">
+                           <div class="carousel-sporrt_text ">
+                              <h1 class="banner_taital">HANDYBUDDY</h1>
+                    <p class="lorem_text">HANDYBUDDY는 농인과 청인 모두를 위한 수화교육프로그램입니다. 수화를 배우러 따로 학원에 다닐 필요없이 집에서 손쉽게 수화를 배워보세요.</p>
+                    <div class="ads_bt"><a href="#start" class="scroll">시작하기</a></div>
+                    <div class="contact_bt"><a href="#">문의/컨택</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                           <div class="img-box">
+                              <figure><img src="images/banner-img1.png" style="max-width: 100%;"/></figure>
+                           </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+             </div>
+         </div>
+      </section>
     </div>
-    <div class="button2">
-      <label for="button2" onclick="location.href='/learningsentences'">수화 문장 배우기</label>
-      <input type="button" id="button2">
-    </div>
-    
-    <div class="button3" onclick="location.href='/actual_practice'">
-      <label for="button3">실전 수화</label>
-      <input type="button" id="button3">
     </div>
 
-</center>
+		</div>
+        <!--header section end -->
+        
+		</div>
+	</div>
+    <!--banner section end -->
+	<!--about section start -->
+    <div id="guide" class="about_section layout_padding">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6">
+    				<div class="tablet"><img src="images/tablet-img.png"></div>
+    			</div>
+    			<div class="col-md-6">
+    				<div class="about_taital">
+    					<div class="about_text">Guide <span style="color: #c6610f;">준비물</span></div>
+    					<p class="dolor_text">HANDYBUDDY는 립모션을 사용하여 수화인식을 진행합니다.<br>립모션을 구비하여 컴퓨터에 연결한 후 교육을 진행해주세요.</p>
+    					<div class="read_more"><a href="https://www.ultraleap.com/product/leap-motion-controller/">립모션이란?</a></div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div id="start" class="about_section_2 ">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-12">
+    				<div class="classified_text">START LEARNING <span style="color: #c6610f;"><br>수화 교육 시작</span></div>
+    			</div>	
+    		</div>
+    		<div class="row front">
+    			<div class="col-md-2">
+    				<div class="about_img"><img src="images/img-1.png"></div>
+    			</div>
+    			<div class="col-md-10">
+    				<h1 class="fron_text">한손 수화 배우기</h1>
+    				<p class="using_text">한손만 사용하는 수화들을 배워봅시다.</p>
+    			</div>
+    			<div class="red_bt"><a href="#">시작하기</a></div>
+    		</div>
+    		<div class="row front">
+    			<div class="col-md-2">
+    				<div class="about_img"><img src="images/img-1.png"></div>
+    			</div>
+    			<div class="col-md-10">
+    				<h1 class="fron_text"> 두손 수화 배우기</h1>
+    				<p class="using_text">두손을 사용하는 수화들을 배워봅시다.</p>
+    			</div>
+    			<div class="red_bt"><a href="#">시작하기</a></div>
+    		</div>
+    		<div class="row front">
+    			<div class="col-md-2">
+    				<div class="about_img"><img src="images/img-1.png"></div>
+    			</div>
+    			<div class="col-md-10">
+    				<h1 class="fron_text"> 수화 단어 퀴즈</h1>
+    				<p class="using_text">지금까지 배운 수화들을 퀴즈로 점검해봅시다.</p>
+    			</div>
+    			<div class="red_bt"><a href="#">시작하기</a></div>
+    		</div>
+    	</div>
+    </div>
+	<!--about section end -->
+	
+	<!--footer section start -->
+	<div id="developedby" class="footer_section layout_padding">
+		<div class="container">
+		    <div class="copyright_section">
+		    	<p class="copyright_text">숙명여자대학교 컴퓨터과학 양주연, 소프트웨어융합 김기연 졸업작품.<a href="https://github.com/HandyBuddy/LeapMotion-SignLanguageEducation"> Github Link</p>
+		    </div>
+		</div>
+	</div>
+	<!--footer section end -->
+
+      <!-- Javascript files-->
+      <script src="../static/jquery.min.js"></script>
+      <script src="../static/popper.min.js"></script>
+      <script src="../static/bootstrap.bundle.min.js"></script>
+      <script src="../static/jquery-3.0.0.min.js"></script>
+      <script src="../static/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="../static/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../static/custom.js"></script>
+      <!-- javascript --> 
+      <script src="../static/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+      </script>
+      <script>
+      jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){            
+      event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+      });
+      });
+      </script>	
+        
 </body>
-
 </html>
