@@ -1,0 +1,174 @@
+<style>
+    li {border-right: solid 1px black;}
+    li:last-child {border-right: none;}
+  </style>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="../static/bootstrap.min.css">
+  <title>HANDY BUDDY</title>
+  <script></script>
+  <style>
+    .button label {
+    display: inline-block;
+    padding: .3em .5em;
+    color: #fff;
+    font-size: xx-large;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #5578c3;
+    cursor: pointer;
+    border: 1px solid #5578c3;
+    border-radius: .25em;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    top: 200px;
+    position: relative;
+    
+}
+
+.button label:hover {
+  background-color: #5578c3;
+}
+
+.button label:active {
+  background-color: #5578c3;
+}
+
+.button input[type="button"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+    
+    ul {
+          background-color: #ffffff;
+          width: 300px;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          border:solid 1px black;
+        }
+    
+    li {border-right:solid 1px black;}
+    li:last-child {border-right: none;}
+  
+    li a {
+          display: block;
+          color: #000000;
+          padding: 8px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+    
+    li a.current {
+          background-color: #5578c3;
+          color:white;
+  
+    }
+    li a:hover:not(.current) {
+          background-color: #5578c3;
+          color: white;
+        }
+  </style>
+  
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <a class="navbar-brand" href="/">Main</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <button class="navbar-nav">
+                <li class="nav-item ">
+                     <a class="nav-link" href="onehand_first.html">한 손 수화 배우기</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="twohand_hi.html">두 손 수화 배우기</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="randomgame.html">수화 단어 게임</a>
+                </li>
+            </button>
+        </div>
+    </nav>
+
+  <!-- jQuery JS -->
+<script src="../static/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="../static/bootstrap.min.js"></script>
+  
+
+
+
+
+  <ul>
+  <li style="font-size:20px;"><a href="onehand_words.html">한 손</a></li>
+  <li><a href="onehand_first">▶ 처음</a></li>
+  <li><a href="onehand_hobby">▶ 취미</a></li>
+  <li><a href="onehand_what">▶ 무엇(무슨,어디,어떤)</a></li>
+  <li><a href="onehand_like">▶ 좋다</a></li>
+  <li><a href="onehand_dog">▶ 강아지</a></li>
+  <li><a href="onehand_thesedays">▶ 요즘</a></li>
+  <li><a href="onehand_eat">▶ 먹다(밥)</a></li>
+  <li><a href="onehand_go">▶ 가다</a></li>
+  <li><a href="onehand_sick">▶ 아프다</a></li>
+  <li><a href="onehand_cough">▶ 기침하다</a></li>
+  <li><a href="onehand_ill">▶ 병</a></li>
+  <li><a href="onehand_be">▶ 있다</a></li>
+  <li><a href="onehand_enough">▶ 충분하다</a></li>
+  <li><a href="onehand_and">▶ 또</a></li>
+  <li><a href="onehand_come">▶ 오다</a></li>
+  <li><a href="onehand_yes">▶ 예</a></li>
+  <li><a href="onehand_twodaysafter">▶ 이틀 후(모레)</a></li>
+  </ul>
+  
+  <center>
+    <video src="http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735172/MOV000246972_700X466.webm"; style="position:relative; bottom:700px; left:100px;" controls></video>
+    
+    
+    
+    <div class="button">
+      <label for="button" style="position: relative; top:-650px; left:25px;">인식</label>
+        <input type="button" id="button">
+        <canvas id="canvas" width="450" height="100" style="position : relative; bottom:590px; left:60px;" float:left></canvas>
+        <script>
+          var rectangle = document.getElementById("canvas")
+          var context = rectangle.getContext("2d")
+          context.fillStyle = "#cfcccc"
+          context.rect(0, 0, 450, 65)
+          context.fill()
+        </script>
+       
+    <h1 style="position: relative; bottom:800px; left:100px;">수화 뜻 : 아프다</h1>
+    </div>
+    <div id = "answer" style="position: relative; top:-765px; left:80px;">
+    	<h2>입력 버튼을 눌러주세요.</h2>
+    </div>
+    
+    <div id="rightImage" style="position: relative; bottom:860px; left:400px; visibility:hidden" float:left>
+  	<img src="https://media.giphy.com/media/QuDCd1noC0aAJOUv73/giphy.gif" width="100px" height="100px">
+    </div>
+    
+    <div id="wrongImage" style="position: relative; bottom:960px; left:400px; visibility:hidden" float:left>
+  	<img src="https://media.giphy.com/media/3og0IvGtnDyPHCRaYU/giphy.gif" width="100px" height="100px">
+    </div>
+  </center>
+
+  <div id="isRight" name="아프다"></div>
+
+  
+  </body>
+  <script src="../static/function.js"></script>
+  </html>
