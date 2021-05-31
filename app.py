@@ -209,7 +209,7 @@ def twohands_end():
 def twohands_yet():
     return render_template("twohands_yet.html")
 
-@app.route('/learning_twohand/twohands_together')
+@app.route('/twohands_together')
 def twohands_together():
     return render_template("twohands_together.html")
 
