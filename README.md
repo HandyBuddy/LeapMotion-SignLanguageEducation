@@ -5,25 +5,25 @@
 
 ## 1. 소개
 
-![K-004](https://user-images.githubusercontent.com/52191425/139627190-1432c999-2f18-4e5c-acb2-1302a200a3a0.png)
+![K-011](https://user-images.githubusercontent.com/52191425/139628235-69e6308a-ad0a-4748-80d8-187579bb4975.png)
 
 ## 2. 구현 기술
 
-![K-005](https://user-images.githubusercontent.com/52191425/139627345-a4b4c4d1-72c3-4663-bf6c-2992a229b73a.png)
+![K-012](https://user-images.githubusercontent.com/52191425/139628237-2594d594-aeb4-4c0f-8c8e-6e7b16fd0d14.png)
 
 ### 1) 데이터 수집
 
-![K-006](https://user-images.githubusercontent.com/52191425/139627648-e18ee9dd-8813-4ce0-bb48-950ccff5f608.png)
+![K-013](https://user-images.githubusercontent.com/52191425/139628240-133c982b-2efe-45e4-a4ef-309024e0b576.png)
 
 ### 2) 전처리 과정
 
-![K-007](https://user-images.githubusercontent.com/52191425/139627717-af5377b7-ec2f-4cf8-ba6a-92347284c020.png)
+![K-014](https://user-images.githubusercontent.com/52191425/139628247-f175178f-fd86-4113-867d-2baecc9da3b2.png)
 
 ### 3) 모델 설계
 
-![K-008](https://user-images.githubusercontent.com/52191425/139627847-71fcd6c9-e52e-47f7-aea4-1cac3322ae43.png)
+![K-015](https://user-images.githubusercontent.com/52191425/139628252-77ac619d-a992-45e0-8201-d348c9b26c36.png)
 
 
 ### 4) 데이터 분류
 
-![K-010](https://user-images.githubusercontent.com/52191425/139628055-f16704ff-22bb-420f-9fdf-88a5bf2e5865.png)
+![K-016](https://user-images.githubusercontent.com/52191425/139628261-4fc23c40-5114-4fbe-b870-f4c52f5e7946.png)
