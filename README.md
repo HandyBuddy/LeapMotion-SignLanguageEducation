@@ -2,6 +2,8 @@
 
 립모션 센서를 이용한 딥러닝 기반 한국 수어 교육 웹 애플리케이션.
 
+소개 및 시연 영상: https://drive.google.com/file/d/17Q7YxCswU_wOaIuYqSvmIwnUXZiK2NbL/view?usp=sharing
+
 
 ## 1. 소개
 
